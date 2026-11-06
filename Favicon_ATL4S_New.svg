@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#eef4f9"/>
+  <!-- zone basse maillée -->
+  <path d="M7,28 L11,18 C13,21 19,15 21,18 L25,28 Z" fill="#d3ebf7"/>
+  <polygon points="7,28 13,28 10,21" fill="#a8d4ee"/>
+  <polygon points="13,28 19,28 16,21" fill="#c4e4f5"/>
+  <polygon points="10,21 13,28 16,21" fill="#c4e4f5"/>
+  <!-- dôme du sommet (géométrie exacte), au-dessus de la courbe en S -->
+  <path d="M11,18 C13,21 19,15 21,18 Q16,5 11,18 Z" fill="#9fd0ec"/>
+  <path d="M11,18 C13,21 19,15 21,18" fill="none" stroke="#4a90c2" stroke-width="0.6"/>
+  <!-- crête sombre -->
+  <polygon points="20,28 26,16 31,28" fill="#2f6f9e"/>
+</svg>
