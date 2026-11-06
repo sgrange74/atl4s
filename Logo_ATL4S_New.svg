@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="mont">
+      <path d="M28,86 L40,62 Q58,33 76,62 L88,86 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="#eef4f9"/>
+  <path d="M28,86 L40,62 Q58,33 76,62 L88,86 Z" fill="#d3ebf7"/>
+  <g clip-path="url(#mont)">
+    <polygon points="28,86 40,86 34,74" fill="#a8d4ee"/>
+    <polygon points="40,86 52,86 46,74" fill="#a8d4ee"/>
+    <polygon points="52,86 64,86 58,74" fill="#a8d4ee"/>
+    <polygon points="64,86 76,86 70,74" fill="#a8d4ee"/>
+    <polygon points="76,86 88,86 82,74" fill="#a8d4ee"/>
+    <polygon points="34,74 40,86 46,74" fill="#c4e4f5"/>
+    <polygon points="46,74 52,86 58,74" fill="#c4e4f5"/>
+    <polygon points="58,74 64,86 70,74" fill="#c4e4f5"/>
+    <polygon points="70,74 76,86 82,74" fill="#c4e4f5"/>
+    <polygon points="34,74 46,74 40,62" fill="#a8d4ee"/>
+    <polygon points="46,74 58,74 52,62" fill="#a8d4ee"/>
+    <polygon points="58,74 70,74 64,62" fill="#a8d4ee"/>
+    <polygon points="70,74 82,74 76,62" fill="#a8d4ee"/>
+    <polygon points="40,62 46,74 52,62" fill="#c4e4f5"/>
+    <polygon points="52,62 58,74 64,62" fill="#c4e4f5"/>
+    <polygon points="64,62 70,74 76,62" fill="#c4e4f5"/>
+  </g>
+  <path d="M40,62 C48,72 68,52 76,62 Q58,33 40,62 Z" fill="#9fd0ec"/>
+  <path d="M40,62 C48,72 68,52 76,62" fill="none" stroke="#4a90c2" stroke-width="1"/>
+  <polygon points="60,86 76,52 92,86" fill="#5ba3d3"/>
+  <polygon points="80,86 92,66 104,86" fill="#2f6f9e"/>
+</svg>
