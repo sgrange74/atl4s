@@ -288,12 +288,21 @@
       </figure>
       
       
-      <figure>
-        <div class="figure-box" style="padding:1.2rem;">
-            <img src="anneau.gif" onerror="this.src='anneau.jpg';" alt="Anneau deployable" style="width:100%;max-width:760px;margin:0 auto;border-radius:6px;display:block;" />
-          <figcaption class="figure-hint">Fig. 12 — <span data-lang="fr" data-inline>Anneau déployable : simulation statique en grands déplacements (animation)</span><span data-lang="en" data-inline>Deployable ring: static simulation with large displacements (animation)</span></figcaption>
-        </div>
-      </figure>
+      
+<figure>
+    <div class="figure-box" style="padding:1.2rem;">
+        <video autoplay loop muted playsinline
+               poster="anneau.jpg"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+               style="width:100%;max-width:760px;margin:0 auto;border-radius:6px;display:block;">
+            <source src="DeployableRing.mp4" type="video/mp4"
+                    onerror="this.parentElement.dispatchEvent(new Event('error'));" />
+        </video>
+        <img src="anneau.jpg" alt="Anneau deployable"
+             style="width:100%;max-width:760px;margin:0 auto;border-radius:6px;display:none;" />
+        <figcaption class="figure-hint">Fig. 12 — <span data-lang="fr" data-inline>Anneau déployable : simulation statique en grands déplacements (animation)</span><span data-lang="en" data-inline>Deployable ring: static simulation with large displacements (animation)</span></figcaption>
+    </div>
+</figure>
 
 
         <figure>
